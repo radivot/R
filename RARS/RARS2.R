@@ -52,8 +52,8 @@ Cmatrix <- matrix(1:dim, ncol=16)
 
 colnames(Cmatrix)<-c("Time","P","Retic","WBC","Platelets","RBC","monocytes","epo","MKcytes","mito-Fe","fe2","N","ERYTH","GM-CSF","MKP","G-CSF")
 #
-SF3B1=1.0;
 SF3B1=0.01;
+SF3B1=1.0;
 PI=1.11e7; QI=1.43e6; NI=7.12e6; TNI=1.12e5; ANI=12.8; MDPI=0; MDQI=0; MI=4.2e5; Lym=3.0e6;                                                # starting values
 MDNI=0; MDTI=0; MDAI=0; GMI=.05673; STAT5I=.01004; STAT3I=26.59; Mcl1I=2.021; ROSI=1.967; ablI=0; il8I=4; GCSFI=.75; il3I=1; 
 ERYTHI=1.27e8; RBCI=5.0e9; MKPI=1.423e4; MKcyteI=1.18e5; PlaI=3.45e8; MDMI=0; ReticI=3.53e8; epoI=.05; Fe2I=5.02; MFeI=11.9     # initial iron concentrations in nucleus and mitochondria
