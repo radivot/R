@@ -3,7 +3,7 @@
 # Tabulated output in tableM.txt
 # Set Kgx to 2 for wild type or <2 for mutant ras (line 157). Set TET2 to 1.0 (TET2+) or 0.001 (TET2-) (line 165)
 #
-setwd("~/ccf/bobJackson")
+setwd("~/githubs/R/RARS")
 library(deSolve)
 # state variables are capitalized
 # P     = progenitors (old CFU-GM)
